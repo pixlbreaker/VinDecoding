@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace TestVinDecoder {
-
+    
     public class Make {
         public int id { get; set; }
         public string name { get; set; }
@@ -143,7 +143,7 @@ namespace TestVinDecoder {
         public string city { get; set; }
     }
 
-    public class RootObject {
+    public class RootObjectCar {
         public Make make { get; set; }
         public Model model { get; set; }
         public Transmission transmission { get; set; }
@@ -161,5 +161,5 @@ namespace TestVinDecoder {
         public List<Equipment> equipment { get; set; }
         public MPG MPG { get; set; }
     }
-
+    
 }
